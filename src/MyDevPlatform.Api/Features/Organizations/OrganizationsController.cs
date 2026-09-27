@@ -1,10 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 using MyDevPlatform.Application.Organizations;
 using MyDevPlatform.Contracts.Organizations;
 
 namespace MyDevPlatform.Api.Features.Organizations;
 
 [ApiController]
+[Authorize(Roles = "Superuser")]
 [Route("api/[controller]")]
 public class OrganizationsController : ControllerBase
 {

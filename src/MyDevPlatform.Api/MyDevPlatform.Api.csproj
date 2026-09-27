@@ -21,4 +21,5 @@
     <ProjectReference Include="../MyDevPlatform.Application/MyDevPlatform.Application.csproj" />
     <ProjectReference Include="../MyDevPlatform.Infrastructure/MyDevPlatform.Infrastructure.csproj" />
   </ItemGroup>
+
 </Project>

@@ -10,6 +10,7 @@ public record CreateOrganizationRequest(
 public record OrganizationSummaryDto(
     Guid Id,
     string Name,
+    string Slug,
     string Email,
     string Status,
     string? SubscriptionStatus,
@@ -18,6 +19,7 @@ public record OrganizationSummaryDto(
 public record OrganizationDetailsDto(
     Guid Id,
     string Name,
+    string Slug,
     string Email,
     string Status,
     string SubscriptionStatus,
